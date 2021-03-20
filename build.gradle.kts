@@ -23,9 +23,11 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     /* Thymeleaf */
     implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
+    /* Spring Boot Starter */
     implementation("org.springframework.boot:spring-boot-starter-web")
-
+    /* Parser para exibir objetos em formato JSON */
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+    /* Kotlin */
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     /* Spring Boot Dev Tools */
